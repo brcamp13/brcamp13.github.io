@@ -62,36 +62,53 @@ hr {
 	font-family: 'Roboto Condensed', sans-serif;
 }
 
-#contactParagraphEmail{
+#emailButton{
 	font-family: 'Roboto Condensed', sans-serif;
+	background-color: rgba(152,30,50,1);
+	margin-bottom: 1.1em;
+	margin-top: 1.2em;
+	outline:none;
+	border: none;
 }
 
-#contactParagraphEmail:hover{
-	color: rgba(152,30,50,1);
+#emailButton:hover{
+	background-color: rgba(152,30,50,.85);
 }
 
-#contactParagraphLinkedin{
+#linkedinButton{
 	font-family: 'Roboto Condensed', sans-serif;
+	margin-bottom: 1.1em;
+	background-color: rgba(0,119,181,1);
+	outline:none;
+	border:none;
 }
 
-#contactParagraphLinkedin:hover{
-	color: rgba(0,119,181,1);
+#linkedinButton:hover{
+	background-color: rgba(0,119,181,.85);
 }
 
-#contactParagraphGithub{
+#githubButton{
 	font-family: 'Roboto Condensed', sans-serif;
+	margin-bottom: 1.1em;
+	background-color:rgba(110,84,148,1);
+	outline:none;
+	border:none;
 }
 
-#contactParagraphGithub:hover{
-	color: rgba(110,84,148,1);
+#githubButton:hover{
+	background-color:rgba(110,84,148,.85);
 }
 
-#contactParagraphResume{
+#resumeButton{
 	font-family: 'Roboto Condensed', sans-serif;
+	margin-bottom: 2em;
+	outline:none;
+	border:none;
+	background-color: rgba(19,83,243,.8);
 }
 
-#contactParagraphResume:hover{
-	color:black;
+#resumeButton:hover{
+	background-color: rgba(19,83,243,.7);
 }
 
 a {
