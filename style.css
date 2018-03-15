@@ -123,3 +123,17 @@ a {
 #projectInfoWrapper{
 	margin-top: 1.8em;
 }
+
+#langHead{
+	font-family: 'Roboto Condensed', sans-serif;
+	margin-top:1.1em;
+}
+
+#langHeadTop{
+	font-family: 'Roboto Condensed', sans-serif;
+	margin-top: 1.05em;
+}
+
+#langOrTech{
+	font-family: 'Roboto Condensed', sans-serif;
+}
