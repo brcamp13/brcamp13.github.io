@@ -1,217 +1,105 @@
-.nav-item {
-	background-color: rgba(20,46,84,1);
+#headerRow{
+	background-color: rgba(19,83,243,.8);
 }
 
-.nav-item:hover{
-	background-color: rgba(20,46,84,.70);
-}
-
-.nav-link{
-	color: rgb(250,250,250);
-	font-family: 'Montserrat', sans-serif;
-}
-
-.nav-link:hover{
-	color: rgb(250,250,250);
-}
-
-body {
-	background-color: rgb(76,102,140);
-}
-
-.nav{
-	-moz-box-shadow: .15em .3em .6em;
-	-ms-box-shadow: .15em .3em .6em;
-	-webkit-box-shadow: .15em .3em .6em;
-	-o-box-shadow: .15em .3em .6em;
-	box-shadow: .15em .3em .6em;
-}
-
-.lead{
-	display: flex;
-	justify-content: center;
-}
-
-.jumbotron{
-	margin-left: 6.25em;
-	margin-right: 6.25em;
-	margin-top: 3.5em;
-	margin-bottom: 3.5em;
+#headerImage{
 	-moz-box-shadow: .25em .5em 1em;
 	-ms-box-shadow: .25em .5em 1em;
 	-webkit-box-shadow: .25em .5em 1em;
 	-o-box-shadow: .25em .5em 1em;
 	box-shadow: .25em .5em 1em;
-	background-size: cover;
 }
 
-.jumboIntroIndex1{
-	font-family: 'Montserrat', sans-serif;
-	font-size: 2em;
-	padding-right:5em;
-	padding-left:5em;
-	font-weight: 350;
+#headerLead{
+	margin-top: 1.1em;
+	font-family: 'Roboto Condensed', sans-serif;
+	color: white;
 }
 
-.jumboIntroIndex2{
-	font-family: 'Montserrat', sans-serif;
-	font-size: 1.5em;
-	padding-right:5em;
-	padding-left:5em;
-	font-weight: 200;
+#lead{
+	font-family: 'Roboto Condensed', sans-serif;
+	color: white;
 }
 
-.jumboIntroContact1{
-	font-family: 'Montserrat', sans-serif;
-	font-size: 2.5em;
-	padding-right:5em;
-	padding-left:5em;
-	font-weight: 600;
+#aboutLead{
+	font-family: 'Roboto Condensed', sans-serif;
+	margin-top: 1.2em;
 }
 
-.jumboIntroContact2{
-	font-family: 'Montserrat', sans-serif;
-	font-size: 1.6em;
-	padding-right:5em;
-	padding-left:5em;
-	padding-top:1.5em;
-	font-weight: 600;
+#aboutParagraph{
+	font-family: 'Roboto Condensed', sans-serif;
 }
 
-.jumboimage{
-	display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width:16em;
-    height:16em;
-    -moz-box-shadow: .25em .5em 1em;
+hr {
+  border:none;
+  border-top:1px dotted;
+  color:rgba(19,83,243,.8);
+  height:1px;
+  width:75%;
+}
+
+#projectsLead{
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+#projectHeader{
+	font-family: 'Roboto Condensed', sans-serif;
+	margin-top: 1.1em;
+}
+
+#projectImage{
+	margin-top: 1.1em;
+	-moz-box-shadow: .25em .5em 1em;
 	-ms-box-shadow: .25em .5em 1em;
 	-webkit-box-shadow: .25em .5em 1em;
 	-o-box-shadow: .25em .5em 1em;
 	box-shadow: .25em .5em 1em;
-
 }
 
-.jumboimageproject{
-	display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 1.6em;
-    width:16em;
-    height:10em;
-    -moz-box-shadow: .25em .5em 1em;
-	-ms-box-shadow: .25em .5em 1em;
-	-webkit-box-shadow: .25em .5em 1em;
-	-o-box-shadow: .25em .5em 1em;
-	box-shadow: .25em .5em 1em;
-
+#experienceParagraph{
+	font-family: 'Roboto Condensed', sans-serif;
 }
 
-.list-group{
-	font-family: 'Montserrat', sans-serif;
+#contactParagraphEmail{
+	font-family: 'Roboto Condensed', sans-serif;
 }
 
-.list-group-item{
-	padding: 2em;
-	margin: .6em;
-	font-size: 1.3em;
+#contactParagraphEmail:hover{
+	color: rgba(152,30,50,1);
 }
 
-#contactEmail:hover{
-	color: white;
-	background-color: rgba(152,30,50,1);
+#contactParagraphLinkedin{
+	font-family: 'Roboto Condensed', sans-serif;
 }
 
-#contactLinkedin:hover{
-	color: white;
-	background-color: rgba(0,119,181,1);
+#contactParagraphLinkedin:hover{
+	color: rgba(0,119,181,1);
 }
 
-#contactGithub:hover{
-	color:white;
-	background-color:rgba(110,84,148,1);
+#contactParagraphGithub{
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+#contactParagraphGithub:hover{
+	color: rgba(110,84,148,1);
+}
+
+#contactParagraphResume{
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+#contactParagraphResume:hover{
+	color:black;
 }
 
 a {
 	color: rgb(0,0,0);
 }
 
-.languageListWrap{
-	margin-top: 1em;
+#projectInfo{
+	font-family: 'Roboto Condensed', sans-serif;
 }
 
-#languageListItem{
-	text-align: center;
-	font-size: .9em;
-	font-weight: 500;
+#projectInfoWrapper{
+	margin-top: 1.8em;
 }
-
-#languageListItemBottom{
-	text-align: center;
-	font-size: .9em;
-	font-weight: 500;
-	margin-bottom: 1em;
-}
-
-#techHeader{
-	font-size: 1em;
-	font-weight: 700;
-}
-
-#projectButton{
-	background-color: rgb(92,114,147);
-	border-color: rgb(92,114,147);
-	outline: none;
-	box-shadow: none;
-}
-
-#projectButton:hover{
-	background-color: rgba(92,114,147,.85);
-}
-
-#whoAmI{
-	margin-top: 1.2em;
-	margin-right:1.8em;
-	margin-left:1.8em;
-}
-
-.languageHeader{
-	font-family: 'Montserrat', sans-serif;
-	margin-top: 1.5em;
-	font-size: 1.3em;
-}
-
-.progress{
-	margin-right:17em;
-	margin-left:17em;
-}
-
-.otherExperienceTop{
-	margin-top: 1.2em;
-	font-size:1.1em;
-}
-
-.otherExperience{
-	margin-top: .5em;
-	font-size:1.1em;
-}
-
-#languageAndTechLead{
-	font-family: 'Montserrat', sans-serif;
-	font-size: 1.5em;
-}
-
-.experienceItem{
-	margin-top: 1em;
-	font-size:1em;
-}
-
-
-
-
-
-
-
-
-
-
