@@ -2,6 +2,7 @@
 <html>
 <head>
 	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<!-- Necessary for google analytics tracking -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-115646250-1"></script>
 	<script>
   	window.dataLayer = window.dataLayer || [];
@@ -17,12 +18,16 @@
 	<meta name = "author" content = "Brandon Campbell">
 	<meta name = "viewport" content = "width = device-width, innitial-scale = 1.0">
 	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+	<!-- Puts an image in the tab ("B" in this case) -->
 	<link rel="shortcut icon" type="images/favicon.ico" href="images/favicon.ico" />
+	<!-- Linking to bootstrap CSS files -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<!-- Linking to personal CSS file -->
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
 
+	<!-- Wrapper for the header section -->
 	<div id = "headerwrap">
 		<div class = "container-fluid">
 			<div class="row text-center" id = "headerRow">
@@ -35,9 +40,10 @@
 		</div>	
 	</div>
 
+	<!-- Wrapper for the about section -->
 	<div id = "aboutWrap">
 		<div class = "container">
-			<div class = "row text-center" id = "aboutRow">
+			<div class = "row text-center" id = "aboutRow"> 
 				<div class = "col" id = "aboutCol">
 					<h1 id = "aboutLead">Who am I?</h1>
 					<div id = "aboutContentWrap">
@@ -53,6 +59,7 @@
 
 	<hr>
 
+	<!-- Wrapper for the projects section -->
 	<div id = "projectsWrap">
 		<div class = "container-fluid">
 			<div class = "row text-center" id = "projectRow">
@@ -75,6 +82,8 @@
 
 	<hr>
 
+	<!-- Wrapper for the other stuff section -->
+	<!-- "Other stuff" is probably not the best name. Will change at a later date -->
 	<div id = "otherStuffWrapper">
 		<div class = "container-fluid">
 			<div class = "row text-center" id = "otherStuffRow">
@@ -97,7 +106,7 @@
 	</div>
 
 
-
+	<!-- Necessary bootstrap scripts -->
 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
