@@ -1,0 +1,19 @@
+{
+  "name": "personalwebsite",
+  "version": "1.0.0",
+  "description": "Personal Website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brcamp13/brcamp13.github.io.git"
+  },
+  "author": "Brandon Campbell",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brcamp13/brcamp13.github.io/issues"
+  },
+  "homepage": "https://github.com/brcamp13/brcamp13.github.io#readme"
+}
