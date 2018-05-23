@@ -100,6 +100,14 @@ hr {
 	background-color:rgba(110,84,148,.85);
 }
 
+#visitSiteButton{
+	font-family: 'Roboto Condensed', sans-serif;
+	margin-bottom: 1.1em;
+	background-color: rgba(19,83,243,.8);
+	outline:none;
+	border:none;
+}
+
 #resumeButton{
 	font-family: 'Roboto Condensed', sans-serif;
 	margin-bottom: 2em;
@@ -122,6 +130,8 @@ a {
 
 #projectInfoWrapper{
 	margin-top: 1.8em;
+	margin-right: 15em;
+	margin-left: 15em;
 }
 
 #langHead{
