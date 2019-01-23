@@ -103,9 +103,13 @@ hr {
 #visitSiteButton{
 	font-family: 'Roboto Condensed', sans-serif;
 	margin-bottom: 1.1em;
-	background-color: rgba(19,83,243,.8);
+	background-color: rgba(19,83,243,1);
 	outline:none;
 	border:none;
+}
+
+#visitSiteButton:hover{
+	background-color: rgba(19,83,243,.85);
 }
 
 #resumeButton{
