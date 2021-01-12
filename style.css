@@ -11,6 +11,9 @@
 	-o-box-shadow: .25em .5em 1em;
 	box-shadow: .25em .5em 1em;
 	margin-top: 2em;
+	width: 160px;
+    min-height: 160px;
+    max-height: auto;
 }
 
 #headerLead{
